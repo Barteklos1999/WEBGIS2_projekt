@@ -7,6 +7,7 @@ header{
     height: 10vh;
     width: 100%;
     background-color:#FFEBCD;
+    
 }
 
 
@@ -16,6 +17,11 @@ h1{
     text-align:center;
     font-size: 50px;
     
+    
+}
+#head{
+    font-size: 80px;
+    font-family: "Snell Roundhand";
 }
 
 
@@ -64,7 +70,7 @@ h1{
 }
 
 #link1:hover{
-    color: grey;
+    opacity: .5;
 }
 #link2{
     float: left;
@@ -74,6 +80,10 @@ h1{
     background-size: cover;
     background-position: center;
 }
+
+#link2:hover{
+    opacity: .5;
+}
 #link3{
     float: left;
     height: 20vh;
@@ -82,6 +92,10 @@ h1{
     background-size: cover;
     background-position: center;
 }
+
+#link3:hover{
+    opacity: .5;
+}
 #link4{
     float: left;
     height: 20vh;
@@ -89,6 +103,10 @@ h1{
     background-image: url(../img/trafalgar.jpg);
     background-size: cover;
     background-position: center;
+}
+
+#link4:hover{
+    opacity: .5;
 }
 .link_photo{
     
@@ -126,13 +144,13 @@ h1{
 }
 
 .ca3-scroll-down-link {
-    cursor:pointer;
+    
       height: 60px;
       width: 80px;
       margin: 0px 0 0 -40px;
       line-height: 60px;
       position: absolute;
-      left: 50%;
+      left: 50.5%;
       bottom: 0px;
       color: #FFF;
       text-align: center;
@@ -140,24 +158,5 @@ h1{
       z-index: 100;
       text-decoration: none;
       text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
-  
-      -webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
-      -moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
-      animation:         ca3_fade_move_down 2s ease-in-out infinite;
   }
   
-  @-webkit-keyframes ca3_fade_move_down {
-    0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
-    50%  { opacity: 1;  }
-    100% { -webkit-transform:translate(0,20px); opacity: 0; }
-  }
-  @-moz-keyframes ca3_fade_move_down {
-    0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
-    50%  { opacity: 1;  }
-    100% { -moz-transform:translate(0,20px); opacity: 0; }
-  }
-  @keyframes ca3_fade_move_down {
-    0%   { transform:translate(0,-20px); opacity: 0;  }
-    50%  { opacity: 1;  }
-    100% { transform:translate(0,20px); opacity: 0; }
-  }
